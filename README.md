@@ -12,3 +12,5 @@ Minecraft clone using Python Ursina game engine!
 ## Assets
 
 - https://www.cgtrader.com/3d-models/textures/architectural-textures/minecraft-all-about-blocks
+- https://freesound.org/people/kretopi/sounds/406464/
+- https://guildofwriters.org/wiki/Adding_Atmosphere
