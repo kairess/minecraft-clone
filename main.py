@@ -55,7 +55,6 @@ def update():
         punch.play()
         hand.position = Vec2(0.4, -0.5)
     else:
-        pass
         hand.position = Vec2(0.6, -0.6)
 
 class Voxel(Button):
