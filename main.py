@@ -3,6 +3,13 @@ from ursina.prefabs.first_person_controller import FirstPersonController
 
 app = Ursina()
 
+jump_height = 2 # Default: 2
+jump_duration = 0.5 # Default: 0.5
+jump_fall_after = 0.35 # Default: 0.35
+gravity_scale = 1 # Default: 1
+mouse_sensitivity = Vec2(40,40) # Default: (40,40)
+run_speed = 5 # Default: 5
+
 window.fps_counter.enabled = False
 window.exit_button.visible = False
 
@@ -74,5 +81,11 @@ for z in range(20):
         voxel = Voxel(position=(x, 0, z))
 
 player = FirstPersonController()
+
+player.jump_height = jump_height
+player.jump_up_duration = jump_duration
+player.mouse_sensitivity = mouse_sensitivity
+player.speed = run_speed
+player.gravity = gravity_scale
 
 app.run()
