@@ -18,3 +18,7 @@ Minecraft clone using Python Ursina game engine!
 ## Reference
 
 - Official Ursina Mincraft clone sample https://github.com/pokepetter/ursina/blob/master/samples/minecraft_clone.py
+
+## Contributors
+
+- [gimbo8000](https://github.com/gimbo8000)
