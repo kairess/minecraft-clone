@@ -21,3 +21,4 @@ Minecraft clone using Python Ursina game engine!
 
 ## Contributors
 
+- [gimbo8000](https://github.com/gimbo8000)
